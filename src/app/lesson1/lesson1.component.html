@@ -2,7 +2,11 @@
 
 
 <p>tw$
-  <input type="number" [(ngModel)]="money">
+  <input type="number" [(ngModel)]="money" (ngModelChange)="moneyChange($event)">
 </p>
 <p>us${{money * 30}}</p>
 <p>jp${{money / 5}}</p>
+<hr>
+{{bmiServeice.name}}
+
+<button (click)="callService()">Service Call</button>

@@ -22,8 +22,8 @@ export class AppComponent {
 
   //};
 
-  sayHi(val: string = '123'){
-    alert(this.url + val);
+  sayHi(word: string = 'ohho'){
+    alert(word);
   }
 
 

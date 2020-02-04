@@ -1,4 +1,4 @@
-export interface Account{
-  account:string;
-  password:string;
+export interface Account {
+  account: string;
+  password: string;
 }

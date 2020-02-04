@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BmiService } from '../bmi.service';
 
 @Component({
   selector: 'app-lesson2',
@@ -8,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class Lesson2Component implements OnInit {
   isShow = 'true';
   number = 0;
-  constructor() { }
+  constructor(
+    public bmiServeice: BmiService
+  ) { }
 
   ngOnInit() {
   }
-
+  callService() {
+    this.bmiServeice.sayHello();
+  }
 }
