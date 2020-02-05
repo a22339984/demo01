@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BookService {
-  serverIp = 'http://120.97.26.43:8000/';
+  serverIp = 'http://127.0.0.1:8000/';
   constructor(
     public http: HttpClient
   ) { }

@@ -10,7 +10,7 @@ import { Lesson8Component } from './lesson8/lesson8.component';
 
 
 const routes: Routes = [
-  { path: '',redirectTo:'lon1',pathMatch: 'full' },
+  { path: '', redirectTo: 'lon1', pathMatch: 'full' },
   { path: 'lon1', component: Lesson1Component },
   { path: 'lon2', component: Lesson2Component },
   { path: 'lon3', component: Lesson3Component },
@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'lon5', component: Lesson5Component },
   { path: 'lon6', component: Lesson6Component },
   { path: 'lon8', component: Lesson8Component },
-  { path: '**',component: Lesson1Component }
+  { path: '**', component: Lesson1Component }
 
 
 ];

@@ -14,6 +14,7 @@ import {NgPipesModule} from 'ngx-pipes';
 import { StarComponent } from './star/star.component';
 import { Lesson6Component } from './lesson6/lesson6.component';
 import { HttpClientModule } from '@angular/common/http';
+import { Lesson8Component } from './lesson8/lesson8.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     Lesson4Component,
     Lesson5Component,
     StarComponent,
-    Lesson6Component
+    Lesson6Component,
+    Lesson8Component
   ],
   imports: [
     BrowserModule,

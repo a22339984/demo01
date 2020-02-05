@@ -7,7 +7,7 @@ export class BmiService {
   name = 'Tina';
   constructor() { }
 
-  sayHello(){
+  sayHello() {
     alert(this.name);
   }
 }
